@@ -52,3 +52,10 @@ The Dense layers are an artificial neural network (ANN). The last layer returns 
 
 As this model aims to categorize the images, we will use a categorical_crossentropy loss function.
 
+---
+### confusion matrix
+There seems to be a slightly higher confusion between (0,6) and (4,9). This is reasonable as 0's and 6's look similar with their loops and 4's and 9's can be mistaken when the 4's are more rounded and 9's are more angular.
+
+---
+### conclusion
+Neural Network with convolutional layer has a great impact on accuracy. our model got 99% accuracy with just two convolution layer. Convolutional neural networks (CNNs) have accomplished astonishing achievements across a variety of domains, including medical research, and an increasing interest has emerged in radiology.
