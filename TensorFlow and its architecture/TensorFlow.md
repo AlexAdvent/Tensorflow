@@ -1,24 +1,18 @@
 # Convolutional Neural Networks With Tensorflow
 
 ---
-### Goal
-In this notebook, we're going to create Convolution Neural Networks with the help of tensorflow Library. we will build and train a CNN from scratch. In this notebook we are use tensorflow library. so lets begin the journey of CNN. 
-
 ### Learning Objectives
 1.   create CNN network from scratch.
 2.   understanding what is convolution.
 3.   Train your model and visualize the prediction.
 
-### Getting Started
-we will begin by importing some useful packages and the dataset you will use to build and train our model. 
-
 #### MNIST Dataset
-The training images our discriminator will be using is from a dataset called [MNIST](http://yann.lecun.com/exdb/mnist/). It contains 60,000 images of handwritten digits, from 0 to 9, like these:
+We will train cnn network on dataset called [MNIST](http://yann.lecun.com/exdb/mnist/). It contains 60,000 images of handwritten digits, from 0 to 9, like these:
 
 
 ![dataset image](https://miro.medium.com/max/700/1*LyRlX__08q40UJohhJG9Ow.png)
 
-
+---
 
 ## Convolution Neural Network
 ### Convolution layer
@@ -53,9 +47,6 @@ The Dense layers are an artificial neural network (ANN). The last layer returns 
 As this model aims to categorize the images, we will use a categorical_crossentropy loss function.
 
 ---
-### confusion matrix
-There seems to be a slightly higher confusion between (0,6) and (4,9). This is reasonable as 0's and 6's look similar with their loops and 4's and 9's can be mistaken when the 4's are more rounded and 9's are more angular.
 
----
 ### conclusion
 Neural Network with convolutional layer has a great impact on accuracy. our model got 99% accuracy with just two convolution layer. Convolutional neural networks (CNNs) have accomplished astonishing achievements across a variety of domains, including medical research, and an increasing interest has emerged in radiology.
