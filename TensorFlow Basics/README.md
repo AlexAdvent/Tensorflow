@@ -1,4 +1,4 @@
-# Getting Start with Tensorflow Operator
+# Tensorflow Operator
 
 ---
 
@@ -17,7 +17,7 @@ There are sevral types of operations that can be done on tensorflow. Some of the
 * Comparision operations: equal, less, not_equal, ...
 * Debugging operations : is_finite, is_inf,..
 
-Example of each operation.
+Example of each type of operations by operators is shown in the code file.
 
 
 ### Conclusion
