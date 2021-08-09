@@ -1,4 +1,4 @@
-#Getting Start with Tensorflow Operator
+# Getting Start with Tensorflow Operator
 
 ---
 
